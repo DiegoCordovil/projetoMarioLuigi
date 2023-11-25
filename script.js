@@ -1,0 +1,16 @@
+let formulario = document.querySelector(".Fale-Conosco")
+let mascara = document.querySelector(".mascara-form")
+
+console.log(formulario)
+
+
+
+function cliqueiNoBotao(){
+    formulario.style.left = "800px"
+    mascara.style.visibility = "visible"
+}
+
+function sumirFormulario(){
+    formulario.style.left = "-320px"
+    mascara.style.visibility = "hidden"
+}
